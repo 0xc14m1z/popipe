@@ -1,6 +1,6 @@
 {
   "name": "popipe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Small method that behaves like the pipe operator of functional languages.",
   "main": "./dist/index.js",
   "files": [
