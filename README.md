@@ -31,7 +31,7 @@ const answerOfLife = pipe(5, doubler, doubler, incrementer, doubler)
 ```
 
 If you want to apply additional arguments to transformation methods, use the
-currying tecnique having a function that accepts a single parameter as your
+currying technique having a function that accepts a single parameter as your
 final result.
 
 ```js
