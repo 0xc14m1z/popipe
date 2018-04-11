@@ -4,9 +4,9 @@ import pipe from ".."
 
 describe("pipe", () => {
 
-  it("should return undefined when no arguments are given", () => {
+  it("should return false when no arguments are given", () => {
     const test = pipe()
-    expect(test).to.be.undefined
+    expect(test).to.be.false
   })
 
   it("should return the given value when it's the last argument", () => {

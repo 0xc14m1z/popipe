@@ -1,7 +1,6 @@
 const pipe = (...args) =>
-  args.reduce(
-    (result, value) => isFunction(value) ? value(result) : value,
-    undefined
+  args.length > 0 && args.reduce(
+    (result, value) => isFunction(value) ? value(result) : value
   )
 
 export default pipe
